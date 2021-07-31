@@ -4,4 +4,21 @@
     margin: 0;
     padding: 0;
 }
+/*fuente*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+:root{
+    --colorBlanco: rgb(255, 255, 255);
+    --colorGrisClaro: rgb(126, 126, 126);
+    
+}

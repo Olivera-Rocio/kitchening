@@ -1,0 +1,53 @@
+/*imagen de fondo*/
+.home{
+    background-image: url("/images/bg-body.png");
+    padding: 0 10px;
+}
+
+/*quitar baner*/
+.home .banner{
+display: none;
+}
+
+
+
+/*productos*/
+.home .producto{
+width: 100%;
+margin-top: 20px;
+position: relative;
+}
+.home .img-foto{
+    width: 100%;
+}
+.home .btn-zoom{
+    position: absolute;
+    top: calc(50% - 120px);
+    left: 0;
+    text-transform: uppercase;
+    color: rgb(250, 250, 250);
+    background-color: rgb(0, 0, 0, .5);
+    display: block;
+    width: 100%;
+    padding: 3% 0;
+    text-align: center;
+}
+.home .img-etiqueta{
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+
+.home .producto h4{
+    margin: 20px 0;
+}
+.home .producto p{
+    color: var(--colorGrisClaro);
+}
+.home .btn-more{
+    padding: 3%;
+    color: var(--colorBlanco);
+    background-color: var(--colorGrisClaro);
+    display: inline-block;
+    margin: 20px 0;
+}

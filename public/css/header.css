@@ -1,0 +1,39 @@
+
+header{
+    width: 100%;
+    
+}
+
+/*logo*/
+header img{
+    border-radius: 50%; /*redondea*/
+    border: solid 1px rgb(153, 153, 153); /*color del borde*/
+    margin: 10% auto; /*margen*/
+    display: block; /*centra imagen*/
+}
+
+/*boton hamburguesa*/
+header a.btn-burger{
+    width: 40px;/*ancho*/
+    padding: 4px;  /*espacio interno*/
+    background-color: rgb(126, 126, 126); /*color-fondo*/
+    display: block; /*centra*/
+    color: rgb(255, 255, 255); /*color-medio*/
+    font-size: 26px; 
+    margin: 0 auto 30px; /*margen arriba, costados, abajo*/
+    text-align: center; /*alinea*/
+    border-radius: 10%; /*redondea*/
+}
+
+header li{
+    background-color: rgb(126, 126, 126); /*color-fondo*/
+    margin-bottom: 2px; /*margen de abajo*/
+    padding: 4% 0;/*espacio interno*/
+    text-align: center; /*alinea*/
+}
+header li a{
+    color: rgb(255, 255, 255); /*color de letras*/
+    text-transform: uppercase; /* texto en mayuscula*/
+}
+
+

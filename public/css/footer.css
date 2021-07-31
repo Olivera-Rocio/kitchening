@@ -1,0 +1,14 @@
+footer{
+    width: 100%;
+    
+}
+footer li{
+    background-color: rgb(126, 126, 126); /*color-fondo*/
+    margin-bottom: 2px; /*margen de abajo*/
+    padding: 4% 0;/*espacio interno*/
+    text-align: center; /*alinea*/
+}
+footer li a{
+    color: rgb(255, 255, 255); /*color de letras*/
+    text-transform: uppercase; /* texto en mayuscula*/
+}
