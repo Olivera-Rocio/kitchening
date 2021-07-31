@@ -1,0 +1,23 @@
+{
+  "name": "kitchening-Magali",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olivera-Rocio/kitchening.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olivera-Rocio/kitchening/issues"
+  },
+  "homepage": "https://github.com/Olivera-Rocio/kitchening#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
