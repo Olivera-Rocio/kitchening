@@ -4,8 +4,8 @@ footer{
 }
 footer li{
     background-color: rgb(126, 126, 126); /*color-fondo*/
-    margin-bottom: 2px; /*margen de abajo*/
-    padding: 4% 0;/*espacio interno*/
+    margin-bottom: 4px; /*margen de abajo*/
+    padding: 2% 0;/*espacio interno*/
     text-align: center; /*alinea*/
 }
 footer li a{

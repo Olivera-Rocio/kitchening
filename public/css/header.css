@@ -25,10 +25,11 @@ header a.btn-burger{
     border-radius: 10%; /*redondea*/
 }
 
+/*lista desordenada*/
 header li{
     background-color: rgb(126, 126, 126); /*color-fondo*/
-    margin-bottom: 2px; /*margen de abajo*/
-    padding: 4% 0;/*espacio interno*/
+    margin-bottom: 4px; /*margen de abajo*/
+    padding: 2% 0;/*espacio interno*/
     text-align: center; /*alinea*/
 }
 header li a{
@@ -36,4 +37,21 @@ header li a{
     text-transform: uppercase; /* texto en mayuscula*/
 }
 
-
+@media (min-width: 768px) {
+    header a.btn-burger{
+        display: none; /*quita botn burger*/
+    }
+    /*lista desordenada*/
+    header li{
+        float: left; /*dipone uno al lado del otro*/
+        width: 15%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+    }
+    header li:last-child{
+        margin-right: 0;
+    }
+    header li a{
+        font-size: .9rem; /*tamaño de letra*/
+    }
+}
