@@ -12,3 +12,25 @@ footer li a{
     color: rgb(255, 255, 255); /*color de letras*/
     text-transform: uppercase; /* texto en mayuscula*/
 }
+
+/*desktop*/
+@media (min-width: 1024px) {
+    footer{
+        padding: 45px;
+        background-color: rgb(163, 1, 1);
+        text-align: center;
+        border-radius: 20px 20px 0 0;
+    }
+    footer li{
+        background: none;
+        display: inline-block;
+        border-right: 1px solid var(--colorBlanco);
+        padding: 5px 5px;
+    }
+    footer li:last-child{
+        border-right: none;
+    }
+    footer li a{
+        text-transform: capitalize; /* texto en mayuscula*/
+    }
+}

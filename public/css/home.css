@@ -61,7 +61,7 @@ position: relative;
     display: block; /*agrega banner*/
     }
     .home .producto{
-        width: 48%;
+        width: 48%; /*tamaño de ancho*/
         display: inline-block;
         margin-right: 3%;
     }
@@ -69,6 +69,28 @@ position: relative;
         margin-right: 3%;
     }
     .home .producto:nth-child(2n){
+        margin-right: 0;
+    }
+}
+
+/*desktop*/
+@media (min-width: 1024px) {
+    .home{
+        max-width: 3000px;
+        margin: 0 auto;
+    }
+    .home .productos{
+        overflow: hidden;
+    }
+    .home .producto{
+        float: left;
+        width: 32%;
+        margin-right: 2%; 
+    }
+    .home .producto:nth-child(2n){
+        margin-right: 2%;
+    }
+    .home .producto:nth-child(3n){
         margin-right: 0;
     }
 }

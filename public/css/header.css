@@ -8,7 +8,7 @@ header{
 header img{
     border-radius: 50%; /*redondea*/
     border: solid 1px rgb(153, 153, 153); /*color del borde*/
-    margin: 10% auto; /*margen*/
+    margin: 4% auto; /*margen*/
     display: block; /*centra imagen*/
 }
 
@@ -20,7 +20,7 @@ header a.btn-burger{
     display: block; /*centra*/
     color: rgb(255, 255, 255); /*color-medio*/
     font-size: 26px; 
-    margin: 0 auto 30px; /*margen arriba, costados, abajo*/
+    margin: 0 auto 15px; /*margen arriba, costados, abajo*/
     text-align: center; /*alinea*/
     border-radius: 10%; /*redondea*/
 }
@@ -37,6 +37,7 @@ header li a{
     text-transform: uppercase; /* texto en mayuscula*/
 }
 
+/*tablet*/
 @media (min-width: 768px) {
     header a.btn-burger{
         display: none; /*quita botn burger*/
@@ -54,4 +55,12 @@ header li a{
     header li a{
         font-size: .9rem; /*tamaño de letra*/
     }
+}
+
+/*desktop*/
+@media (min-width: 1024px){
+    header li a{
+        font-size: 1.2rem; /*tamaño de letra*/
+    }
+    
 }
